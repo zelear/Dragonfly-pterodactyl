@@ -4,6 +4,7 @@
 FROM    --platform=$TARGETOS/$TARGETARCH ghcr.io/dragonflydb/dragonfly:latest
 
 LABEL   author="ZelearFox" maintainer="fox@zlr.su"
+LABEL org.opencontainers.image.source="https://github.com/zelear/Dragonfly-pterodactyl"
 
 ENV     DEBIAN_FRONTEND=noninteractive
 
